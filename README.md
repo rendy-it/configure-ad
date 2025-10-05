@@ -1,5 +1,5 @@
 <p align="center">
-<img width="3187" height="1496" alt="Active Directory Logo" src="https://github.com/user-attachments/assets/6d2d0bce-ed82-4ab2-8759-4c462fa0ad8c" />
+<img width="2560" height="1440" alt="Active Directory Logo" src="https://github.com/user-attachments/assets/09373d78-71f6-4af6-8737-110159040f9c" />
 
 
 
