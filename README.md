@@ -139,7 +139,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 
-<h2> << Ticket Assignment and Communication | Working Tickets |	Resolution of Tickets >> </h2>
+<h2> << Step 2: Use the Windows-VM that we used from previous projects to be the Client >> </h2>
 
 <p>
 <img width="600" height="494" alt="Step 2" src="https://github.com/user-attachments/assets/5ae610c2-ed55-4ef3-ac65-d6ed8f2678fe" />
