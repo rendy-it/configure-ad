@@ -38,14 +38,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2> << Step 1: Create a Domain Controller Windows Server 2022 VM >> </h2>
 <p>
-<img width="1151" height="651" alt="Step 1" src="https://github.com/user-attachments/assets/2dda1b78-e215-4220-9a4e-dc19521610ca" />
+<img width="372" height="364" alt="Step 1" src="https://github.com/user-attachments/assets/c52606d9-c394-409c-b7a7-fbb0edf07071" /> <img width="53" height="364" alt="Right Arrow for Step 1_1a" src="https://github.com/user-attachments/assets/02fec441-0c57-4cba-89ea-b284105715ba" /> <img width="371" height="364" alt="Step 1a" src="https://github.com/user-attachments/assets/e0427367-3448-4966-b035-795b79085809" />
+
+
+
 
 
 </p>
 <p>
   
-- Begin by going to the osTicket Support Center page: http://localhost/osTicket to create a ticket as an end user.
-  -	Select “Open a New Ticket”.
+- On the Azure home page, hover you mouse cursor on “Virtual Machines”.
+- A small window will appear, then click on “Create”.
+- Then select “Virtual Machine”. 
 
 
 </p>
@@ -54,13 +58,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img width="842" height="990" alt="Step 1a" src="https://github.com/user-attachments/assets/26a13d30-5f61-4de1-abc5-28d3a10f58fd" />
 
 
-
 <p>
   
-- Recall in the previous project that we created 2 users. One of them was named “Karen” so we will input that user’s info.
-- For the Help Topic we went with “Report a Problem”.
-- For the Issue Summary, make it correspondent to whichever issue the person may have.
-- Then select “Create Ticket”. 
+- On the next page, select your resource group.
+  - Give the VM a name (DC-1).
+  - Select a Zone.
+  - Select “Windows Server 2022” for the OS image.
+  - And select at least 2 vcpus, with 8 or 16 gig memory.
+
 
   
 </p>
