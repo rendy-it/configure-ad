@@ -24,8 +24,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 -	Step 1: Create a Domain Controller Windows Server 2022 VM.
--	Step 2: Set the Domain Controller’s VM’s private IP to static and disable the Windows Firewall.
--	Step 3: Use the Windows-VM that we used from previous projects to be the Client.
+-	Step 2: Use the Windows-VM that we used from previous projects to be the Client.
+-	Step 3: Set the Domain Controller’s VM’s private IP to static and disable the Windows Firewall.
 -	Step 4: Set the Windows- VM’s DNS settings to DC-1’s Private IP address.
 -	Step 5: Confirm network connectivity between the DC-1 VM and the Client VM.
 -	Step 6: Install Active Directory in the DC-1 VM. Promote it as a Domain Controller and log back in using domain credentials.
@@ -108,7 +108,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 <p>
-<img width="777" height="283" alt="Step 1d" src="https://github.com/user-attachments/assets/624aba38-fc57-4df9-8340-488883b09528" />
+<img width="739" height="331" alt="Step 1f" src="https://github.com/user-attachments/assets/a3b074f2-61f3-42da-8d3b-e8bcf233029b" />
 
 
 </p>
@@ -121,6 +121,23 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <br />
+<p>
+<img width="431" height="1009" alt="Step 1g" src="https://github.com/user-attachments/assets/883fb488-e5fa-4087-89e0-0c06d81a3b81" />
+
+
+
+</p>
+<p>
+  
+- On the next Page:
+  - Double Check to make sure everything is to your liking.
+  - Then select “Create”.
+
+
+
+</p>
+<br />
+
 
 <h2> << Ticket Assignment and Communication | Working Tickets |	Resolution of Tickets >> </h2>
 
