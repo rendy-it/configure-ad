@@ -55,7 +55,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 <p>
-<img width="842" height="990" alt="Step 1a" src="https://github.com/user-attachments/assets/26a13d30-5f61-4de1-abc5-28d3a10f58fd" />
+<img width="686" height="1007" alt="Step 1b" src="https://github.com/user-attachments/assets/5ef2f882-c6bb-4a32-b62d-4c3eaa6ae5d4" />
 
 
 <p>
@@ -71,18 +71,52 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 <p>
-<img width="842" height="991" alt="Step 1b" src="https://github.com/user-attachments/assets/cd19122c-31ba-4917-aa20-0c0f36349080" />
+<img width="614" height="317" alt="Step 1c" src="https://github.com/user-attachments/assets/daa109ac-5421-4835-b8c9-53b71b6d74d1" />
 
 
 </p>
 <p>
   
-- Next, we are going to create another ticket but this time for the other user that we created named “Ken”.
-- Open a New Ticket again.
-- Recall in the previous project that we created 2 users. One of them was named “Ken” so we will input that user’s info.
-- For the Help Topic we went with “Report a Problem/Password Reset”.
-- For the Issue Summary it, make it correspondent to whichever issue the person may have.
-- Then select “Create Ticket”. 
+- Next, create a Username and Password
+
+
+</p>
+<br />
+<p>
+<img width="777" height="283" alt="Step 1d" src="https://github.com/user-attachments/assets/624aba38-fc57-4df9-8340-488883b09528" />
+
+
+</p>
+<p>
+  
+- Next, go to the “Networking” tab.
+
+</p>
+<br />
+<p>
+<img width="777" height="283" alt="Step 1d" src="https://github.com/user-attachments/assets/624aba38-fc57-4df9-8340-488883b09528" />
+
+
+</p>
+<p>
+  
+- On the next page:
+  - Make sure to select the same Virtual Network as the Windows VM that we used from previous projects.
+  - Everything else is set by default.
+
+
+</p>
+<br />
+<p>
+<img width="777" height="283" alt="Step 1d" src="https://github.com/user-attachments/assets/624aba38-fc57-4df9-8340-488883b09528" />
+
+
+</p>
+<p>
+  
+- Go back to the “Basics” tab.
+- Scroll to the bottom and select “Review + Create”.
+
 
 
 </p>
