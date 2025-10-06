@@ -178,14 +178,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 <p>
-<img width="770" height="999" alt="Step 2a1" src="https://github.com/user-attachments/assets/bb8d20f5-e701-4eab-97af-50949772acb9" />
+<img width="382" height="594" alt="Step 2a1" src="https://github.com/user-attachments/assets/f87f201e-804e-4e45-b9ce-328b5e3d42a5" /><img width="83" height="594" alt="Right Arrow for Step 2a1_2a1a" src="https://github.com/user-attachments/assets/a895f1dc-69c7-42fa-8a75-566315a303a2" /><img width="382" height="594" alt="Step 2a1a" src="https://github.com/user-attachments/assets/60bb49bf-3ba9-4a15-89f4-bba0c6498fad" />
+
+
 
 
 <p>
   
-- As a Help Desk Agent (Jane) will observe the ticket’s properties.
-- The Priority, Department, SLA and who the ticket is assigned to.
-- Set the Ticket’s properties by selecting the SLA Plan “Default SLA”.
+- Then, click on “ipconfig1” and change the Allocation from “Dynamic” to “Static” and click on “Save”.
 
    
 </p>
