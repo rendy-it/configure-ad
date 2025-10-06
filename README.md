@@ -182,12 +182,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
-
-
 <p>
+
   
 - Then, click on “ipconfig1” and change the Allocation from “Dynamic” to “Static” and click on “Save”.
-
+- Once you do that, the private IP address of DC-1 should no longer change.
+  
    
 </p>
 <br />
