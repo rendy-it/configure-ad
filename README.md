@@ -132,6 +132,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - On the next Page:
   - Double Check to make sure everything is to your liking.
   - Then select “Create”.
+  - Once completed you can click on “Go to resource”.
+  - Then you will be able to see the VM that you just created with all the information.
+
 
 
 
@@ -142,26 +145,36 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2> << Step 2: Use the Windows-VM that we used from previous projects to be the Client >> </h2>
 
 <p>
-<img width="600" height="494" alt="Step 2" src="https://github.com/user-attachments/assets/5ae610c2-ed55-4ef3-ac65-d6ed8f2678fe" />
+<img width="771" height="974" alt="Step 0" src="https://github.com/user-attachments/assets/1ed00524-e11e-4efc-9739-65cb5d858437" />
 
 
 </p>
 <p>
   
-- Go to the osTicket login page: http://localhost/osTicket/scp/login.php .
-	- Log in as the admin user we created in the previous project.
-	- One of mine was Jane.
+- For the client VM we are going to use the Windows VM that we created in a previous project referenced [here](https://github.com/rendy-it/azure-vm).
+- If you have not created one before just follow the exact steps for the Windows 10 VM created from that project.
+- Once you are done, head back to the VM page of your Azure Resource Group and your Windows 10 VM should be there alongside your DC-1 VM.
 
 
 </p>
 <br />
+
+<h2> << Step 3: Set the Domain Controller’s VM’s private IP to static and disable the Windows Firewall >> </h2>
+
+
 <p>
-<img width="962" height="462" alt="Step 2a" src="https://github.com/user-attachments/assets/766068ee-fba6-48c4-959c-8ef26ec036e4" />
+<img width="427" height="433" alt="Step 2" src="https://github.com/user-attachments/assets/6b32e4db-5b58-4af7-8fda-8dc75a57b7c2" /> <img width="50" height="433" alt="Right Arrow for Step 2_2a" src="https://github.com/user-attachments/assets/0c2a9147-f552-4412-b0c1-3e57138b9a40" /> <img width="428" height="433" alt="Step 2a" src="https://github.com/user-attachments/assets/34980b5f-7dbd-4c7d-a9fe-7cc4a2e9a5da" />
+
+
+
 
 
 <p>
   
-- Once logged in, you will see the 2 tickets that were submitted by the users Karen and Ken. Select the “Online Banking” one from Karen.
+- After Creating the VMs, we need to set the DC VM’s NIC’s private ip address to be static.
+- Go to the DC-1 VM’s page in Azure and select “Network Settings”.
+- Then click on the “Network Interface / IP configuration”.
+
    
 </p>
 <br />
