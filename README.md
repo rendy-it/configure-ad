@@ -178,7 +178,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 <p>
-<img width="382" height="594" alt="Step 2a1" src="https://github.com/user-attachments/assets/f87f201e-804e-4e45-b9ce-328b5e3d42a5" /><img width="83" height="594" alt="Right Arrow for Step 2a1_2a1a" src="https://github.com/user-attachments/assets/a895f1dc-69c7-42fa-8a75-566315a303a2" /><img width="382" height="594" alt="Step 2a1a" src="https://github.com/user-attachments/assets/60bb49bf-3ba9-4a15-89f4-bba0c6498fad" />
+<img width="336" height="594" alt="Step 2a1" src="https://github.com/user-attachments/assets/1858cc82-6cd2-4913-8ce9-b93b0110f9be" /><img width="81" height="594" alt="Right Arrow for Step 2a1_2a1a" src="https://github.com/user-attachments/assets/1063d4fe-7064-4b8d-8f99-cd5470f4ff7b" /><img width="337" height="594" alt="Step 2a1a" src="https://github.com/user-attachments/assets/7c58bb4e-5d6c-4824-a5d6-1c0896529727" />
+
 
 
 
