@@ -192,24 +192,22 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 <p>
-<img width="650" height="255" alt="Step 2a2" src="https://github.com/user-attachments/assets/9ac077ff-1a0d-44a6-a643-2fbbc5aa6df7" />
-
+<img width="1186" height="440" alt="Step 2a2" src="https://github.com/user-attachments/assets/caef7ce6-352a-41ec-ae6d-081fea2c6b2e" />
 
 <p>
   
-- Change it to “SEV-A” and write down a reason. Then select “Update”.
+- Next, log into the DC-1 VM with RDP using the VM’s public IP address.
    
 </p>
 <br />
 
 <p>
-<img width="650" height="255" alt="Step 2a3" src="https://github.com/user-attachments/assets/29292c16-94e2-45da-8a78-eb594626a093" />
+<img width="886" height="761" alt="Step 2a3" src="https://github.com/user-attachments/assets/0a58343a-bd44-4afc-8ed4-3ab856015271" />
 
 
 <p>
   
-- Then select the Help Topic “Report a Problem”.
-- Change it to “Report a Problem / Business Critical Outage” and write down the reason. Then select “Update”.
+- Then once logged in, you want to run “wf.msc” for windows firewall.
 
    
 </p>
