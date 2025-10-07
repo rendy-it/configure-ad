@@ -214,26 +214,25 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="650" height="255" alt="Step 2a4" src="https://github.com/user-attachments/assets/fc90d09e-9485-4a8a-80d3-0af96de7d328" />
+<img width="836" height="626" alt="Step 2a4" src="https://github.com/user-attachments/assets/1f7d054a-00f5-4574-8cce-013780046f59" />
 
 
 <p>
   
-- Then Select the Assigned To “Unassigned”.
-- Change it to “Online Banking” and write down a reason. Then Select “Assign”.
+- Then, select “Windows Defender Firewall Properties”.
 
    
 </p>
 <br />
 
 <p>
-<img width="889" height="997" alt="Step 2a5" src="https://github.com/user-attachments/assets/b1ec1c08-6142-4a93-9d6b-31a2276e007b" />
+<img width="1400" height="454" alt="Step 2a5_2a6_2a7" src="https://github.com/user-attachments/assets/bd1f9db5-0e7f-4584-ae39-72c7850f7203" />
+
 
 
 <p>
   
-- So, I assigned the ticket to the Online Banking Team and made it so that Jane took over the ticket. I acknowledged the issue to Karen the user and responded with an update of what the problem could be related to after investigating. This assures Karen that I am working on the problem. Then I updated Karen on what was done to solve the problem, assuring her that everything is back up and running.
-- The Ticket Thread section is there to give the agent access to communicate to the customer, to keep them updated on the ticket’s progress of being resolved. It’s also very important through good communication skills to remain polite and empathetic with the customers.
+- Then for the “Domain” “Private” and “Public” profile tabs make sure that “Firewall State” is off. Then select “Apply”.
 
    
 </p>
