@@ -760,6 +760,231 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 
+<h2> << Step 9: Setup RDP for non-administrative users on the Client-1 VM >> </h2>
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/30b86ab0-6f2e-40af-945a-c88b881afd57" />
+
+
+<p>
+  
+- First, log into the Client-1 VM as username “mydomain.com\jane_admin” and the password that you set for it in previous steps.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/db68a43c-5c06-4be2-9f33-9d5ccd98c811" />
+
+
+<p>
+  
+- Then right click on the start menu, then click “System”.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/8baf9e70-55f3-488d-a5d0-c6bd08862454" />
+
+<p>
+  
+- Then click on “Remote Desktop”.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+-	Then click “Select users that can remotely access this PC”.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Then click on “Add...”.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Then input “domain users” in the box and then click on “Check Names” then click on Ok.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Now all standard users are by default able to access this computer. Remotely. Click on Ok.
+
+   
+</p>
+<br />
+
+<h2> << Step 10: Create additional Non-Administrative Users and attempt to login into Client-1’s VM with one of the new users >> </h2>
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/30b86ab0-6f2e-40af-945a-c88b881afd57" />
+
+
+<p>
+  
+- First, log into the DC-1 VM as username “mydomain.com\jane_admin” and the password that you set for it in previous steps.
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/db68a43c-5c06-4be2-9f33-9d5ccd98c811" />
+
+
+<p>
+  
+- Then open PowerShell ISE as an administrator.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/8baf9e70-55f3-488d-a5d0-c6bd08862454" />
+
+<p>
+  
+- Then you are going to create a new file and paste the contents of a script that can be used to automatically generate multiple employee user accounts in the “_EMPLOYEES” Organizational Unit that we created in the previous steps.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+-	In the PowerShell ISE interface, select the “New Script” icon.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Then save the script as “create users” on your desktop.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Then paste into it the contents of the multiple employee user accounts script copied.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Next, run the scrip by clicking on the “Run Script” icon or hit “F5” on your keyboard. What this script will do is create thousands of users with random generated.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Next you want to open “Active Directory Users and Computers” to observe the accounts being created in the _EMPLOYEES” Organizational Unit.
+- As this is just a project, you can stop the script by hitting on the stop icon as plenty of new users have been created. 
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Next, we are going to attempt to log into the Client-1 VM with one if the user accounts that was created with the script. Reminder that each user’s password by default in the script was set to “Password1”.
+- Back on “Active Directory Users and Computers”, in the “_EMPLOYEES” folder, select a random user of your choosing and attempt to log into that account in the Client-1 VM.
+- For example, I will pick “loco.nala” as the user. We are going to attempt to log into the Client-1 VM with that user account.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Input “mydomain.com\loco.nala” as the username and “Password1” as the password as this is the default password for all new users created based on the script. 
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Once logged in. We can verify in multiple ways. Open the command prompt and it will display the name of the account. And also go to the Users folder in the C drive and there will be a folder for “loco.nala”. And to confirm that this account does not have admin permissions try to open the “jane_admin” folder and it will not open without administration credentials.
+
+   
+</p>
+<br />
+
+
 
 <h2> << Conclusion >> </h2>
 
@@ -767,9 +992,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
   
 - Close the Remote Desktop connection.
 - Go Back to your Azure resource group page.
-- Make sure your VMs are on “Stop” status if you are not going to use them right away. This way you will not be charged while they are not in use.
 - Also, make sure your VMs are on “Stop” status if you are not going to use them right away. This way you will not be charged while they are not in use.
-- To conclude, we were able to create tickets from an end user’s perspective. Then we were able to go and solve those tickets through the Helpdesk Agents perspective. Both from an admin role and a support role. 
+- To conclude, we have successfully implemented the on-premises of Active Directory within Virtual machines on the Azure Cloud infrastructure. 
 
 
 </p>
