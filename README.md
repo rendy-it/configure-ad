@@ -233,94 +233,122 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
   
 - Then for the “Domain” “Private” and “Public” profile tabs make sure that “Firewall State” is off. Then select “Apply”.
+- Once that is done, the windows firewall for the DC-1 VM should be off.
+
+   
+</p>
+<br />
+
+<h2> << Step 4: Set the Windows- VM’s DNS settings to DC-1’s Private IP address >> </h2>
+
+
+<p>
+<img width="563" height="432" alt="Step 4" src="https://github.com/user-attachments/assets/20b4b043-42a2-42ce-902d-bc895e6ecef7" />
+
+
+<p>
+  
+- Go to the DC-1 VM page. Make note and copy the private IP address.
+   
+</p>
+<br />
+
+<p>
+<img width="893" height="506" alt="Step 4a" src="https://github.com/user-attachments/assets/bcab426f-ca02-4c3d-9634-730d911d9b07" />
+
+
+<p>
+  
+- Go to the Windows-VM page and select “Network Settings”
+- Then click on the “Network Interface / IP configuration”.
+
+ 
+   
+</p>
+<br />
+
+<p>
+<img width="758" height="449" alt="Step 4a1" src="https://github.com/user-attachments/assets/8e5779c5-9261-47cb-b3b9-b3400325d389" />
+
+
+<p>
+  
+- Then select the “DNS servers” tab on the left.
+- Then, select “Custom” and paste the DC-1 VM private IP address number. Then select “Save”.
 
    
 </p>
 <br />
 
 <p>
-<img width="770" height="998" alt="Step 2a6" src="https://github.com/user-attachments/assets/b3030823-313f-49b3-9124-724f4ab4e321" />
+<img width="1458" height="403" alt="Step 4a3" src="https://github.com/user-attachments/assets/2efa9048-196d-4a07-8961-90010f6309db" />
 
 
 <p>
   
-- Now that everything is resolved, you can now close the ticket. Select the Status “Open” and select “Resolved”. Then select “Close”.
+- The DNS configuration is now complete. To make sure all changes have been applied. Go back to your Azure VMs page and restart all the VMs.
    
 </p>
 <br />
 
-<p>
-<img width="650" height="255" alt="Step 2b1" src="https://github.com/user-attachments/assets/496fa44d-37df-4676-ab7e-1d25bb4f6727" />
+<h2> << Step 5: Confirm network connectivity between the DC-1 VM and the Client VM. >> </h2>
 
 
 <p>
-  
-- Next, we are going to assign the other ticket to John since John has a support role.
-- Jane as the Admin Agent will give John the assignment. Select the other ticket that was submitted by Ken from the previous steps above.
-- This ticket submitted by Ken is a Password Reset issue and we are going to let John from the Support Team take over.
-  
-   
-</p>
-<br />
-
-<p>
-<img width="605" height="546" alt="Step 2b2" src="https://github.com/user-attachments/assets/7e7a37c2-2ff9-4653-abc0-a420b4445884" />
+<img width="643" height="460" alt="Step 5" src="https://github.com/user-attachments/assets/8fffb1e6-9414-4899-a1aa-0e6799651853" />
 
 
 <p>
   
-- Next, log out and go log in as John.
-   
-</p>
-<br />
-
-<p>
-<img width="960" height="464" alt="Step 2b2a" src="https://github.com/user-attachments/assets/2ec5c67a-cd35-45fc-9ffa-d1bbc79f4bdc" />
-
-
-<p>
-  
-- Then select the ticket assigned which in this case is the Password Reset ticket.
+- We are going to log in to the Client Windows-VM and attempt to ping DC-1s private IP address.
+- Make note of and copy your DC-1 VM’s private IP address.
 
    
 </p>
 <br />
 
 <p>
-<img width="897" height="996" alt="Step 2b3" src="https://github.com/user-attachments/assets/4b4e08f8-b454-419e-b461-bcc1a6881d66" />
+<img width="887" height="726" alt="Step 5a" src="https://github.com/user-attachments/assets/cbb7c728-f04a-4257-8833-5a8a6bc2b760" />
 
 
 <p>
   
-- The issue has been resolved as we can see by reading the Ticket Thread log.
+- Log in to the Windows VM using RDP.
+- Then you want to open “PowerShell”
 
    
 </p>
 <br />
 
 <p>
-<img width="822" height="994" alt="Step 2b4" src="https://github.com/user-attachments/assets/ed4d3e5a-6b7b-4c63-8af3-51a2155c40f6" />
+<img width="761" height="534" alt="Step 5a1" src="https://github.com/user-attachments/assets/074dd991-92d4-4638-99a2-7f900d3eeba8" />
 
 
 <p>
   
-- You can now close the ticket to status resolved. 
+- Then type “ping” and paste the DC-1 private IP number.
+- Example: “ping 10.1.0.5” then press enter and it should ping successfully.
+
 
    
 </p>
 <br />
 
 <p>
-<img width="960" height="441" alt="Step 2c" src="https://github.com/user-attachments/assets/92992a73-73f1-435c-8ccf-381720964d29" />
+<img width="699" height="867" alt="Step 5a2" src="https://github.com/user-attachments/assets/50dee3fc-0f73-4839-923d-e7c8fd1ff1d4" />
 
 
 <p>
   
-- All tickets have been resolved.
+- Next, type “ipconfig /all” and it should give us results in which will show DC-1’s private IP address.
+- The network connectivity attempt between both VMs is now complete.
+
 
    
 </p>
 <br />
+
+
 
 <h2> << Conclusion >> </h2>
 
