@@ -611,6 +611,156 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 
+<h2> << Step 8: Join Client-1 Virtual Machine to the domain (mydomain.com) >> </h2>
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/30b86ab0-6f2e-40af-945a-c88b881afd57" />
+
+
+<p>
+  
+- To join Client-1 to the domain, first log into the Client-1 VM.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/db68a43c-5c06-4be2-9f33-9d5ccd98c811" />
+
+
+<p>
+  
+- Then right click on the start menu, then click “System”.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/8baf9e70-55f3-488d-a5d0-c6bd08862454" />
+
+<p>
+  
+- Then click on “Rename this PC (advanced)”.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+-	Then on the “Computer Name” tab click on “Change….”.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Then change the domain to “mydomain.com”. Click Ok.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Then input the credentials of the “jane_admin” account “mydomain.com\jane_admin” as it is the Domain Admin that we created in the previous steps and it will allow Client-1 to join the domain. Then click Ok.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Then you will see a welcome message telling you that the Client-1 VM has joined the domain (mydomain.com). Then click on Ok. And restart the Client-1 VM. When it restarts, it will now be part of the domain.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Once the Client-1 VM restarts and successfully joins the domain, log back into the DC-1 VM.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Open “Active Directory Users and Computers” in the search bar.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+-	Then right click on “mydomain.com” tab on the left, go to “New”, then “Organizational Unit” and give it the name “_CLIENTS”. Then click Ok.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+-	Then go to the “Computers” tab and select and drag “Client-1” into the “_CLIENTS” folder that we created. Then click on Yes.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+-	Then when you refresh the “mydomain.com” tab, you will now see all the Organizational Unit folders that we created in their order. 
+
+   
+</p>
+<br />
+
+
 <h2> << Conclusion >> </h2>
 
 <p>
