@@ -291,7 +291,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 
-<h2> << Step 5: Confirm network connectivity between the DC-1 VM and the Client VM. >> </h2>
+<h2> << Step 5: Confirm network connectivity between the DC-1 VM and the Client VM >> </h2>
 
 
 <p>
@@ -348,7 +348,268 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 
+<h2> << Step 6: Install Active Directory in the DC-1 VM. Promote it as a Domain Controller and log back in using domain credentials >> </h2>
 
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/30b86ab0-6f2e-40af-945a-c88b881afd57" />
+
+
+<p>
+  
+- Login to the DC-1 VM using RDP.
+- When you are logged in you should have the Server Manager software opened. If it is not opened, click on Start and select “Server Manager”.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/db68a43c-5c06-4be2-9f33-9d5ccd98c811" />
+
+
+<p>
+  
+- Next on the Server Manager app, select “Add roles and features”.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/8baf9e70-55f3-488d-a5d0-c6bd08862454" />
+
+<p>
+  
+- Select Next all the way until “Server Roles”, then select “Active Directory Domain Services”. Then Select “Add Features”.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Then, select “Next all the way and then click “Install”.
+- Once Installed, select “Close”.
+
+
+   
+</p>
+<br />
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Once Installed, promote the server as a Domain Controller.
+- Go to the top right on the window, select the flag with the caution symbol.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Then select “Promote this server to a domain controller”.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Then, select “Add new forest” and make it “mydomain.com”. then hit “Next”.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Make a simple password for yourself. Then hit “Next”.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Click “Next” all the way to “Prerequisites Check”, then click “Install”.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Once the VM restarts, you can now log in using your domain credentials with your DC-1 VM username (mydomain.com\labuser) to be in control of Active directory. 
+
+
+   
+</p>
+<br />
+
+<h2> << Step 7: Create a Domain Admin user within the DC-1 VM domain >> </h2>
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/30b86ab0-6f2e-40af-945a-c88b881afd57" />
+
+
+<p>
+  
+- Once logged into the DC-1 VM domain.
+- In the search bar look for “Active Directory Users and Computers” and open it.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/db68a43c-5c06-4be2-9f33-9d5ccd98c811" />
+
+
+<p>
+  
+- Next, right click on “mydomain.com”, go to “New” then “Organization Unit” and give it the name “_EMPLOYEES”. Then click Ok.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/8baf9e70-55f3-488d-a5d0-c6bd08862454" />
+
+<p>
+  
+- Then, we are going to create another one and this time with the name “_ADMINS”. Then click Ok.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Next, we are going to create a new employee account.
+- Right click on “_ADMINS”, go to “New” then “User”.
+
+
+
+   
+</p>
+<br />
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Then, give her the name “Jane Doe”. Then “jane_admin” for the username.  
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Click next and give her a password. Use the same password as the VM to make it easier just for this project. (Don’t do it in the real world).
+- Uncheck “User must change password at next logon” just for this project. In the real world, this would be best to leave checked. Then click “Next” and then click “Finish”
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Next, we are going to add this account we just made to the “Domain Admins” Security Group.
+- Select the “_ADMINS” folder on the left and right click on “Jane Doe” and select “Properties”.
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Then select the “Member Of” tab and then select “Add…”
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Then, type “domain admins” and then click on “Check Names”. Then click on Ok. Then click on Apply and then click on Ok.
+- Now this account is a Domain Admin which gives the ability to create users and other abilities.
+
+
+   
+</p>
+<br />
+
+<p>
+<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+
+
+<p>
+  
+- Next, log out / close the connection to DC-1 and log back in as “mydomain.com\jane_admin”. User account “jane_admin is the Administrator account from now on.
+
+
+   
+</p>
+<br />
 
 <h2> << Conclusion >> </h2>
 
