@@ -351,7 +351,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2> << Step 6: Install Active Directory in the DC-1 VM. Promote it as a Domain Controller and log back in using domain credentials >> </h2>
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/30b86ab0-6f2e-40af-945a-c88b881afd57" />
+<img width="649" height="685" alt="Step 6" src="https://github.com/user-attachments/assets/bda3dc76-ad94-4a77-9a09-76d1a472ad17" />
 
 
 <p>
@@ -365,7 +365,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/db68a43c-5c06-4be2-9f33-9d5ccd98c811" />
+<img width="652" height="616" alt="Step 6a" src="https://github.com/user-attachments/assets/c7d86aac-789e-49cd-9c6d-c6a78d77a822" />
 
 
 <p>
