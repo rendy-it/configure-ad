@@ -377,7 +377,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/8baf9e70-55f3-488d-a5d0-c6bd08862454" />
+<img width="1785" height="557" alt="Step 6a1_6a2" src="https://github.com/user-attachments/assets/88e1fb6e-eb5e-4da4-9268-a6dfdc81d8d7" />
+
 
 <p>
   
@@ -388,7 +389,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1789" height="562" alt="Step 6a3_6a4" src="https://github.com/user-attachments/assets/47f08ca6-8a12-41bf-aade-4be9a1ff8f95" />
+
 
 
 <p>
@@ -401,25 +403,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1435" height="772" alt="Step 6b" src="https://github.com/user-attachments/assets/f456d28f-dccb-431c-8a1f-76f5a20e7319" />
+
 
 
 <p>
   
 - Once Installed, promote the server as a Domain Controller.
 - Go to the top right on the window, select the flag with the caution symbol.
-
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
-
-
-<p>
-  
 - Then select “Promote this server to a domain controller”.
 
 
@@ -428,24 +419,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1765" height="564" alt="Step 6b1_b2" src="https://github.com/user-attachments/assets/33a20028-4065-4378-965c-ca402d8874a6" />
+
 
 
 <p>
   
 - Then, select “Add new forest” and make it “mydomain.com”. then hit “Next”.
-
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
-
-
-<p>
-  
 - Make a simple password for yourself. Then hit “Next”.
 
 
@@ -454,20 +434,19 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1765" height="564" alt="Step 6b3" src="https://github.com/user-attachments/assets/1bf640f2-d12c-421b-9c25-9338f91a7d20" />
 
 
 <p>
   
 - Click “Next” all the way to “Prerequisites Check”, then click “Install”.
 
-
    
 </p>
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1511" height="685" alt="Step 6b4" src="https://github.com/user-attachments/assets/c4978936-622a-4d20-aba2-b67cae7db71c" />
 
 
 <p>
@@ -482,7 +461,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2> << Step 7: Create a Domain Admin user within the DC-1 VM domain >> </h2>
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/30b86ab0-6f2e-40af-945a-c88b881afd57" />
+<img width="1411" height="746" alt="Step 7" src="https://github.com/user-attachments/assets/2f2c1e0d-9407-42d6-878e-3763f1831185" />
 
 
 <p>
