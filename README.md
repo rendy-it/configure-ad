@@ -475,7 +475,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/db68a43c-5c06-4be2-9f33-9d5ccd98c811" />
+<img width="1758" height="534" alt="Step 7a_7a1" src="https://github.com/user-attachments/assets/0f123447-e93c-4aa8-9757-20e9f6e55638" />
+
 
 
 <p>
@@ -487,7 +488,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/8baf9e70-55f3-488d-a5d0-c6bd08862454" />
+<img width="1258" height="634" alt="Step 7a2" src="https://github.com/user-attachments/assets/a54f286d-cae1-4425-9b95-fb37471e8632" />
 
 <p>
   
@@ -498,7 +499,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1258" height="632" alt="Step 7b" src="https://github.com/user-attachments/assets/61a6ef13-3286-464f-9ab9-4d36e20ff3e2" />
 
 
 <p>
@@ -512,26 +513,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1758" height="532" alt="Step 7b1_7b2" src="https://github.com/user-attachments/assets/997caeab-2ad0-412a-a10d-402a341129d9" />
 
-
-<p>
-  
-- Then, give her the name “Jane Doe”. Then “jane_admin” for the username.  
-
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
 
 
 <p>
   
+- Then, give her the name “Jane Doe”. Then “jane_admin” for the username.
 - Click next and give her a password. Use the same password as the VM to make it easier just for this project. (Don’t do it in the real world).
-- Uncheck “User must change password at next logon” just for this project. In the real world, this would be best to leave checked. Then click “Next” and then click “Finish”
+- Uncheck “User must change password at next logon” just for this project. In the real world, this would be best to leave checked. Then click “Next” and then click “Finish”. 
+
 
    
 </p>
