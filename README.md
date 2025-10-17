@@ -529,7 +529,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1258" height="632" alt="Step 7c" src="https://github.com/user-attachments/assets/71eef92a-8ea5-45c8-80df-a2fe061ea5fe" />
 
 
 <p>
@@ -542,24 +542,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
-
-
-<p>
-  
-- Then select the “Member Of” tab and then select “Add…”
-
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
-
+<img width="1758" height="532" alt="Step 7c1_7c2" src="https://github.com/user-attachments/assets/a12eba9e-5fb6-4b88-93f6-47dc0b763d2c" />
 
 <p>
   
+- Then select the “Member Of” tab and then select “Add…”.
 - Then, type “domain admins” and then click on “Check Names”. Then click on Ok. Then click on Apply and then click on Ok.
 - Now this account is a Domain Admin which gives the ability to create users and other abilities.
 
@@ -569,7 +556,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1458" height="574" alt="Step 7d" src="https://github.com/user-attachments/assets/ded6142b-94a2-430b-8a72-dbd4fbf08fbb" />
 
 
 <p>
