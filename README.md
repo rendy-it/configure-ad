@@ -513,7 +513,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 <p>
-<img width="1758" height="532" alt="Step 7b1_7b2" src="https://github.com/user-attachments/assets/997caeab-2ad0-412a-a10d-402a341129d9" />
+<img width="1758" height="532" alt="Step 7b1_7b2" src="https://github.com/user-attachments/assets/b6738c63-2513-4a2a-840a-050b01cb8e1a" />
 
 
 
