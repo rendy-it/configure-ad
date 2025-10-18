@@ -612,25 +612,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="2032" height="713" alt="Step 8b_8b1" src="https://github.com/user-attachments/assets/1a4f871d-35aa-4f65-af65-f9d9dcabcc4a" />
 
 
 <p>
   
 - Once the Client-1 VM restarts and successfully joins the domain, log back into the DC-1 VM.
-
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
-
-
-<p>
-  
 - Open “Active Directory Users and Computers” in the search bar.
+- Then right click on “mydomain.com” tab on the left, go to “New”, then “Organizational Unit”.
 
 
    
@@ -638,23 +627,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1307" height="533" alt="Step 8b2_8b3" src="https://github.com/user-attachments/assets/f8039b0c-0259-43d7-be10-4496bdc2a19e" />
 
 
 <p>
   
--	Then right click on “mydomain.com” tab on the left, go to “New”, then “Organizational Unit” and give it the name “_CLIENTS”. Then click Ok.
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
-
-
-<p>
-  
+-	Give it the name “_CLIENTS”. Then click Ok.
 -	Then go to the “Computers” tab and select and drag “Client-1” into the “_CLIENTS” folder that we created. Then click on Yes.
 
    
@@ -662,7 +640,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1257" height="530" alt="Step 8b4" src="https://github.com/user-attachments/assets/b7d3bfb0-1bee-4520-8972-44e9b5e7aeed" />
 
 
 <p>
