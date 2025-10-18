@@ -654,23 +654,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2> << Step 9: Setup RDP for non-administrative users on the Client-1 VM >> </h2>
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/30b86ab0-6f2e-40af-945a-c88b881afd57" />
+<img width="1380" height="616" alt="Step 9_9a" src="https://github.com/user-attachments/assets/a712a5ee-6e80-46e5-816e-6f87fbcff047" />
 
 
 <p>
   
 - First, log into the Client-1 VM as username “mydomain.com\jane_admin” and the password that you set for it in previous steps.
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/db68a43c-5c06-4be2-9f33-9d5ccd98c811" />
-
-
-<p>
-  
 - Then right click on the start menu, then click “System”.
 
    
@@ -678,56 +667,35 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/8baf9e70-55f3-488d-a5d0-c6bd08862454" />
+<img width="1910" height="809" alt="Step 9a1_9a2" src="https://github.com/user-attachments/assets/70005523-fada-4889-828c-8519a1b5ee22" />
+
 
 <p>
   
 - Then click on “Remote Desktop”.
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
-
-
-<p>
+- Then click “Select users that can remotely access this PC”.
   
--	Then click “Select users that can remotely access this PC”.
-
 
    
 </p>
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="934" height="336" alt="Step 9a3_9a4" src="https://github.com/user-attachments/assets/26ab9aa8-6006-4ca9-9751-d242ee7d8cb9" />
 
 
 <p>
   
 - Then click on “Add...”.
-
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
-
-
-<p>
-  
 - Then input “domain users” in the box and then click on “Check Names” then click on Ok.
 
+
    
 </p>
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="580" height="336" alt="Step 9a5" src="https://github.com/user-attachments/assets/da36e29d-f3b2-4418-b1aa-102ee3bbe72f" />
 
 
 <p>
