@@ -571,34 +571,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2> << Step 8: Join Client-1 Virtual Machine to the domain (mydomain.com) >> </h2>
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/30b86ab0-6f2e-40af-945a-c88b881afd57" />
+<img width="1622" height="643" alt="Step 8_8a" src="https://github.com/user-attachments/assets/dff2771b-e0cf-4efb-8c6f-f1b68e9ca7ae" />
 
 
 <p>
   
 - To join Client-1 to the domain, first log into the Client-1 VM.
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/db68a43c-5c06-4be2-9f33-9d5ccd98c811" />
-
-
-<p>
-  
 - Then right click on the start menu, then click “System”.
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/8baf9e70-55f3-488d-a5d0-c6bd08862454" />
-
-<p>
-  
 - Then click on “Rename this PC (advanced)”.
 
    
@@ -606,12 +585,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="935" height="471" alt="Step 8a1_8a2" src="https://github.com/user-attachments/assets/6916e7ac-85a5-4f1a-b5f9-6ede6dde6acb" />
 
 
 <p>
   
 -	Then on the “Computer Name” tab click on “Change….”.
+-	Then change the domain to “mydomain.com”. Click Ok.
 
 
    
@@ -619,36 +599,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
-
-
-<p>
-  
-- Then change the domain to “mydomain.com”. Click Ok.
-
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1010" height="304" alt="Step 8a3_8a4" src="https://github.com/user-attachments/assets/e6759bdb-90bc-475a-be8e-491d4ce92f98" />
 
 
 <p>
   
 - Then input the credentials of the “jane_admin” account “mydomain.com\jane_admin” as it is the Domain Admin that we created in the previous steps and it will allow Client-1 to join the domain. Then click Ok.
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
-
-
-<p>
-  
 - Then you will see a welcome message telling you that the Client-1 VM has joined the domain (mydomain.com). Then click on Ok. And restart the Client-1 VM. When it restarts, it will now be part of the domain.
 
    
