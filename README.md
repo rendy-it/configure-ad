@@ -709,54 +709,32 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2> << Step 10: Create additional Non-Administrative Users and attempt to login into Client-1’s VM with one of the new users >> </h2>
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/30b86ab0-6f2e-40af-945a-c88b881afd57" />
+<img width="1292" height="502" alt="Step 10_10a" src="https://github.com/user-attachments/assets/81907636-27bd-4f03-b193-933d65dc9e5c" />
 
 
 <p>
   
 - First, log into the DC-1 VM as username “mydomain.com\jane_admin” and the password that you set for it in previous steps.
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/db68a43c-5c06-4be2-9f33-9d5ccd98c811" />
-
-
-<p>
-  
 - Then open PowerShell ISE as an administrator.
-
    
 </p>
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/8baf9e70-55f3-488d-a5d0-c6bd08862454" />
+<img width="1129" height="505" alt="Step 10a1" src="https://github.com/user-attachments/assets/bd055831-f42c-4955-8c20-12f56111b4ff" />
+
 
 <p>
   
 - Then you are going to create a new file and paste the contents of a script that can be used to automatically generate multiple employee user accounts in the “_EMPLOYEES” Organizational Unit that we created in the previous steps.
+- In the PowerShell ISE interface, select the “New Script” icon.
 
    
 </p>
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
-
-
-<p>
-  
--	In the PowerShell ISE interface, select the “New Script” icon.
-
-
-   
-</p>
-<br />
-
-<p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1756" height="895" alt="Step 10a2" src="https://github.com/user-attachments/assets/885f3576-3250-425d-89d1-7303e9d1885d" />
 
 
 <p>
@@ -769,31 +747,35 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="2068" height="740" alt="Step 10a3_10a4" src="https://github.com/user-attachments/assets/9f86cf06-28e6-4df0-a5b2-9d29f0ad6a98" />
 
 
 <p>
   
 - Then paste into it the contents of the multiple employee user accounts script copied.
-
+- Next, run the script by clicking on the “Run Script” icon or hit “F5” on your keyboard.
+  
    
 </p>
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1520" height="1039" alt="Step 10a5" src="https://github.com/user-attachments/assets/03f660ed-e542-4ec6-9b3b-5f1e2b4ae430" />
+
+
 
 
 <p>
   
-- Next, run the scrip by clicking on the “Run Script” icon or hit “F5” on your keyboard. What this script will do is create thousands of users with random generated.
+- What this script will do is create thousands of users with random generated.
 
    
 </p>
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1917" height="1271" alt="Step 10a6" src="https://github.com/user-attachments/assets/a999ab30-2fe7-4add-9049-fe5e43c567e4" />
+
 
 
 <p>
@@ -806,12 +788,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1156" height="742" alt="Step 10b" src="https://github.com/user-attachments/assets/c01d6564-04ea-48ac-8b84-1533daa69db2" />
+
 
 
 <p>
   
-- Next, we are going to attempt to log into the Client-1 VM with one if the user accounts that was created with the script. Reminder that each user’s password by default in the script was set to “Password1”.
+- Next, we are going to attempt to log into the Client-1 VM with one of the user accounts that was created with the script. Reminder that each user’s password by default in the script was set to “Password1”.
 - Back on “Active Directory Users and Computers”, in the “_EMPLOYEES” folder, select a random user of your choosing and attempt to log into that account in the Client-1 VM.
 - For example, I will pick “loco.nala” as the user. We are going to attempt to log into the Client-1 VM with that user account.
 
@@ -820,7 +803,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="1475" height="550" alt="Step 10b1_10b2" src="https://github.com/user-attachments/assets/0cef657d-1944-4218-9302-4674cd4b013d" />
 
 
 <p>
@@ -832,7 +815,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img width="367" height="75" alt="Insert Image Here" src="https://github.com/user-attachments/assets/a8f4a131-6a2b-4fbe-acd7-46ae8eb2b68f" />
+<img width="2077" height="1119" alt="Step 10b3" src="https://github.com/user-attachments/assets/aa7252b5-d4f3-4f76-9db1-353ffa056433" />
 
 
 <p>
